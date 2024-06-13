@@ -233,13 +233,13 @@ color: rgb(65, 61, 56);
     
 
 
-@media (max-width: 768px){
+@media (min-width: 1024px){
     .Container {
         width :90%;
         padding: 15px;
     }
 }
-@media (max-width:480px){
+@media (min-width:600px){
     .Container {
         width: 100%;
         padding: 10px;
@@ -247,7 +247,11 @@ color: rgb(65, 61, 56);
 }
 
 @media print {
-    img{
-        display: none;
+    body{
+       font-size: 12pt;
+         color:Black;
+         Background-color: white;
     }
+     .footer,.ul, .img{
+          display:none
 }
